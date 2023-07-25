@@ -7,6 +7,9 @@
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
 }
+html {
+    scroll-behavior:smooth
+  }
 p{
     font-family: 'PT Serif', serif;
 }
@@ -294,11 +297,11 @@ body{
     position: fixed;
     bottom: 10px;
     right: 20px;
+    transition: .5s linear;
 }
 
 .fa-hand-point-up:hover{
     background: var(--bg-clr);
     color: #6fa545;
 }
-
 
