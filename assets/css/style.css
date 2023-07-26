@@ -250,7 +250,23 @@ body{
     color: var(--brand-clr) !important;
 }
 .view:hover:after{
-    width: 30%;
+    width: 40%;
+}
+
+.explore{
+    background: #6fa545;
+    color: var(--bg-clr);
+    width: 20%;
+    margin: auto;
+    margin-top: 1rem;
+    letter-spacing: .2px;
+    border: 2px solid var(--brand-clr);
+    transition: .5s linear;
+}
+
+.explore:hover{
+    background: var(--bg-clr);
+    color: var(--brand-clr);
 }
 
 /* about  */
