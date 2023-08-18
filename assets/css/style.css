@@ -8,7 +8,8 @@
     font-family: 'PT Sans', sans-serif;
 }
 html {
-    scroll-behavior:smooth
+    scroll-behavior:smooth;
+    cursor: url('/assets/images/devbyisty-logo-clr 2.png'), auto;
   }
 p{
     font-family: 'PT Serif', serif;
@@ -323,4 +324,8 @@ body{
     background: var(--bg-clr);
     color: #6fa545;
 }
+
+/* cursor{
+    cursor: url(assets/images/devbyisty-logo-clr.png);
+} */
 
