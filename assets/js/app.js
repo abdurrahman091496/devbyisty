@@ -20,7 +20,5 @@ document.addEventListener("scroll", (e) => {
 });
 
 
-// circle effect 
-
 
     
