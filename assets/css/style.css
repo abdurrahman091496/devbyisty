@@ -352,7 +352,7 @@ body{
     padding: 14px 17px;
     border-radius: 10px;
     position: fixed;
-    bottom: 250px;
+    bottom: 450px;
     right: -10px;
     transition: .5s linear;
 }
@@ -362,7 +362,37 @@ body{
     color: #6fa545;
 }
 
-/* cursor{
-    cursor: url(assets/images/devbyisty-logo-clr.png);
-} */
+/* circle effect */
 
+#circ{
+    font-size: .9rem;
+    width: 2%;
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    cursor: pointer;
+    animation: spin 14s linear infinite;
+    transition: .5s linear;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circle-hire{
+    font-size: 1rem;
+    text-align: center;
+    background: var(--brand-clr);
+    color: var(--bg-clr);
+    padding: 0 12px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 80px;
+    right: 72px;
+}
+
+.circle-hire:hover{
+    background: var(--bg-clr);
+    color: #6fa545;
+}

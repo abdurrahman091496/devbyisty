@@ -18,3 +18,9 @@ scrollBtn.addEventListener("click", () => {
 document.addEventListener("scroll", (e) => {
     refreshButtonVisibility();
 });
+
+
+// circle effect 
+
+
+    
