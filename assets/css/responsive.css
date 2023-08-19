@@ -85,3 +85,9 @@
 }
 }
 
+@media (max-width: 500px){
+      .about-info{
+        width: 100%;
+        text-align: center !important;
+      }
+}
